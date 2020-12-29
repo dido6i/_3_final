@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Trispace:wght@500&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Trispace', sans-serif;
+}
+
+body {
+	font-size:1.3em;
+	line-height: 150%;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+a, img {
+	text-decoration: none;
+}
+img {
+	width: 960px;
+	height:auto;
+}
+
+h1 {
+	font-size:3em;
+	padding: 20px;
+	text-align: center;
+	color:#2F6E91;
+}
+#container {
+	width:960px;
+	margin: 0 auto;
+}
+
+#mainHeader {
+    background-color: #43d4e0;
+/*    background-image: url(../images/mate40.jpg);*/
+}
+#mainHeader {
+    height: 200px;
+/*
+     background-repeat:
+        no-repeat;
+    background-position:
+        center;
+    background-size: 
+        cover;
+*/
+}
+#main-section-info {
+	height: 80px;
+	background-color: #ffbf00;
+	color: #FFF;
+}
+#main-section-info ul {
+	text-align: left;
+}
+#main-section-info ul li {
+	display: inline;
+	margin-right: 6px;
+}
+#main-section-info ul li a {
+	padding: 0 30px;
+	display: inline-block;
+}
+#main-section-info ul li a:link {
+    background-color: #dcc5bf;
+    color: #fff;	
+}
+}
+#main-section-info ul li a:hover {
+    background-color: #dcc5bf;
+    color: #fff;	
+}
+
+#main-section-info ul li a:active {
+    background-color: #4000ff;
+    color: #fff;	
+}
+#mainFooter {
+	background-color: #808080;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.content p:first-child {
+    padding-top: 20px;
+}
+.video-info-1 {
+    float: left;
+}
+.video-info-2 {
+    float: right;
+}
+.clear {
+    clear: both;
+}
